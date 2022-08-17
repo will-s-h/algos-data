@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<int> lps(string s){ //longest common prefix & suffix
+vector<int> lps(string s){ //longest common prefix & suffix, O(n) where n=len(s)
 	vector<int> pi(s.length()); //pi[0] = 0
 	for(int i = 1; i < s.length(); i++){
 		int j = pi[i-1];
@@ -11,7 +11,7 @@ vector<int> lps(string s){ //longest common prefix & suffix
 	return pi;
 }
 
-vector<int> kmp(string s, string t){ //indices of the ends of where t occurs in s
+vector<int> kmp(string s, string t){ //indices of the ends of where t occurs in s, O(n+m) where n=len(s), m=len(t)
 	vector<int> sol; if(s.length() < 1) return sol;
 	vector<int> pi_t = lps(t);
 	vector<int> pi_s(s.length());
