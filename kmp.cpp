@@ -1,3 +1,6 @@
+//Knuth-Morris-Pratt Algorithm
+//for more information, see https://cp-algorithms.com/string/prefix-function.html
+
 #include <bits/stdc++.h>
 using namespace std;
 
