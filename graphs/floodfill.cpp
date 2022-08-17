@@ -30,12 +30,20 @@ void floodfill(int r, int c, int color){
 }
 
 int main() {
+	//input grid and parameters
+	cin >> row_num >> col_num;
+	for(int r = 0; r < row_num; r++){
+		for(int c = 0; c < col_num; c++){
+			cin >> grid[r][c];
+		}
+	}
+	
 	for (int i = 0; i < row_num; i++) {
 		for (int j = 0; j < col_num; j++) {
 			if (!visited[i][j]) {
 				curr_size = 0;
 				floodfill(i, j, grid[i][j]);
-        cout << cur_size << " ";
+        			cout << cur_size << " ";
 			}
 		}
 	}
