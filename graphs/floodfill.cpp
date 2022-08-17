@@ -1,4 +1,4 @@
-//example of a floodfill that counts size of each connected component, O(N*M)
+//example of a floodfill with recursion that counts size of each connected component, O(N*M)
 //source: https://usaco.guide/silver/flood-fill?lang=cpp, with minor changes
 
 #include <bits/stdc++.h>
