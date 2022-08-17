@@ -1,7 +1,8 @@
-//finds diameter of tree in O(N). Algorithm:
-//1) choose arbitrary node a
-//2) find farthest node b from a
-//3) find farthest node c from b; this is the diameter
+//finds diameter of tree in O(N), using two DFS's. Algorithm:
+// 1) choose arbitrary node a
+// 2) find farthest node b from a
+// 3) find farthest node c from b; this is the diameter
+// algorithm explanation found here: https://usaco.guide/CPH.pdf#page=145
 
 #include <bits/stdc++.h>
 using namespace std;
