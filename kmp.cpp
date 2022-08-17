@@ -22,5 +22,5 @@ vector<int> kmp(string s, string t){ //indices of the ends of where t occurs in 
 		if(t[j] == s[i]) pi_s[i] = j+1;
 		if(pi_s[i] == t.length()) sol.push_back(i);
 	}
-	return sol;
+	return sol; //for number of occurrences, use sol.size()
 }
