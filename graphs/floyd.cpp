@@ -32,8 +32,6 @@ void floyd(int n, vector<int>& next){
 }
 
 int main(){
-    freopen("../input.in", "r", stdin);
-    freopen("../output.out", "w", stdout);
 
     int N; cin >> N;
     vector<int> next(N);
