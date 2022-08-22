@@ -1,4 +1,5 @@
-// Depth First Search (DFS) using recursion; O(N+M)
+// Depth First Search (DFS) 
+// uses recursion; O(N+M)
 // basic example, labelling each node by a number which indicates which connected component they are a part of
 
 #include <bits/stdc++.h>

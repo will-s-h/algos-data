@@ -1,5 +1,5 @@
 // Example of Bellman-Ford
-// Shortest path from one node to all other nodes, in O(NM) (relatively slow)
+// shortest path from one node to all other nodes, in O(NM) (relatively slow)
 
 // Uses:
 // 1) works in the case of negative edge weights, unlike Dijsktra's

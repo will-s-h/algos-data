@@ -1,5 +1,4 @@
-//Floyd Warshall
-//Finds shortest path between all nodes in O(N^3)
+//Floyd-Warshall Algorithm: finds shortest path between all nodes in O(N^3)
 //(negative edge weights allowed, no negative cycles)
 
 #include <bits/stdc++.h>

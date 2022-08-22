@@ -1,4 +1,5 @@
-//tree diameter algorithm using DP, O(n)
+//tree diameter algorithm
+// uses DP, O(N)
 // 1) root the tree arbitrarily
 // 2) calculate for each node maximum length x to any leaf (toLeaf(x))
 // 3) calculate for each node maximum length of path whose highest point is x (maxLength(x) = max(toLeaf(a) + toLeaf(b)))

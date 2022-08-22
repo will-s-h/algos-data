@@ -1,5 +1,5 @@
-//binary jumping / binary lifting
-//finding the kth successor in O(log N) time, with O(N log N) precomputation time
+// Binary Jumping / Binary Lifting
+// finding the kth successor of a functional graph in O(log N) time, with O(N log N) precomputation time
 //see https://usaco.guide/plat/binary-jump?lang=cpp for details
 
 #include <bits/stdc++.h>

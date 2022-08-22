@@ -1,4 +1,5 @@
-//finds diameter of tree in O(N), using two DFS's. Algorithm:
+//finds diameter of tree
+// O(N), using two DFS's. Algorithm:
 // 1) choose arbitrary node a
 // 2) find farthest node b from a
 // 3) find farthest node c from b; this is the diameter

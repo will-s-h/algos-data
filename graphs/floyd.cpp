@@ -1,6 +1,7 @@
-//Floyd's Algorithm: O(N) algorithm for functional/successor graphs (where each node has exactly one outgoing edge)
-//detects cycles in O(N) time and O(1) memory, not including the graph itself
-//the important part is the O(1) memory; a simple DFS could accomplish the O(N) time. 
+// Floyd's Algorithm
+// O(N) algorithm for functional/successor graphs (where each node has exactly one outgoing edge)
+// detects cycles in O(N) time and O(1) memory, not including the graph itself
+// the important part is the O(1) memory; a simple DFS could accomplish the O(N) time. 
 
 #include <bits/stdc++.h>
 using namespace std;
