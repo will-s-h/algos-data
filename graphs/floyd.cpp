@@ -32,7 +32,6 @@ void floyd(int n, vector<int>& next){
 }
 
 int main(){
-
     int N; cin >> N;
     vector<int> next(N);
 
