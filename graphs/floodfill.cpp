@@ -44,7 +44,7 @@ int main() {
 			if (!visited[i][j]) {
 				curr_size = 0;
 				floodfill(i, j, grid[i][j]);
-        			cout << cur_size << " ";
+        		cout << curr_size << " ";
 			}
 		}
 	}
