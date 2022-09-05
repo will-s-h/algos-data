@@ -1,6 +1,6 @@
 // Floodfill Example
 // uses recursion, counts size of each connected component, O(NM)
-// source: https://usaco.guide/silver/flood-fill?lang=cpp, with minor changes 
+// source: https://usaco.guide/silver/flood-fill?lang=cpp, with some changes
 
 #include <bits/stdc++.h>
 using namespace std;
