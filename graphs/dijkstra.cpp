@@ -1,6 +1,6 @@
 // Dijkstra's Algorithm, O(N + M log N) implementation
 // Algorithm to determine shortest path from one node to all other nodes
-// use this for dense graphs where M (number of edges) ~ N^2 (number of nodes)
+// don't use this for dense graphs where M (number of edges) ~ N^2 (number of nodes)
 // WARNING: no negative edges allowed
 // verification: https://open.kattis.com/problems/shortestpath1
 
